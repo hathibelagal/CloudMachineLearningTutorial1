@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MySmartApp</string>
+    <string name="mykey">YOUR_API_KEY</string>
+</resources>
