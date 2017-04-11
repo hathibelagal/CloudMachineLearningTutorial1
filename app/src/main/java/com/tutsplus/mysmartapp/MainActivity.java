@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
                             results = results + labels.getJSONObject(i).getString("description") + "\n";
                         }
 
-                        ((TextView)findViewById(R.id.resultsText)).setText("That's a:\n\n" + results);
+                        ((TextView)findViewById(R.id.resultsText)).setText(results);
                     }catch (Exception e){
                         e.printStackTrace();
                     }
